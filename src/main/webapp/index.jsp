@@ -11,6 +11,7 @@
   <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">  
   <link href="css/flexslider.css" rel="stylesheet">
   <link href="css/templatemo-style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css">
   
   </head>
   <body class="tm-gray-bg">
@@ -107,7 +108,7 @@
 							            </div>
 									</div>							
 						            <div class="form-group tm-yellow-gradient-bg text-center">
-						            	<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
+						            	<button type="submit" name="hsubmit" class="tm-yellow-btn">Check Now</button>
 						            </div>  
 								</form>
 							</div>
@@ -151,7 +152,7 @@
 							          	</div>							           
 									</div>							
 						            <div class="form-group tm-yellow-gradient-bg text-center">
-						            	<button type="submit" name="submit" class="tm-yellow-btn">Check Now</button>
+						            	<button type="submit" name="fsubmit" class="tm-yellow-btn">Check Now</button>
 						            </div>  
 								</form>
 							</div>
@@ -325,10 +326,9 @@
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>					<!-- bootstrap js -->
 	<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>	<!-- bootstrap date time picker js, http://eonasdan.github.io/bootstrap-datetimepicker/ -->
 	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
-<!--
-	<script src="js/froogaloop.js"></script>
-	<script src="js/jquery.fitvid.js"></script>
--->
+	<script src="assets/js/interface.js"></script>
+	<script src="assets/js/slick.min.js"></script> 
+	<script src="assets/js/owl.carousel.min.js"></script>
    	<script type="text/javascript" src="js/templatemo-script.js"></script>      		<!-- Templatemo Script -->
 	<script>
 		// HTML document is loaded. DOM is ready.

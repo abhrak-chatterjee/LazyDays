@@ -1,5 +1,6 @@
 package com.capgemini.lazydays.main;
 
+import java.util.ArrayList;
 import java.util.Map;
 
 import org.springframework.ui.Model;
@@ -97,5 +98,15 @@ import org.springframework.web.servlet.ModelAndView;
 	 		return mav;
 		   }
 		   
+	    @RequestMapping(value = "/login1", method = RequestMethod.GET)
+		   public ModelAndView show1(Model model) 
+	    {
+	    	ArrayList<String> places = new ArrayList<String>();
+	    	places.add("Buenos Aires");
+	    	places.add("Córdoba");
+	    	places.add("La Plata");
+	    	model.addAttribute("msg",places);
+		      return new ModelAndView("Flights");
+		   }
 	    
 	}

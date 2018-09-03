@@ -5,10 +5,6 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Contact</title>
-<!--
-Holiday Template
-http://www.templatemo.com/tm-475-holiday
--->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet' type='text/css'>
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
@@ -16,36 +12,10 @@ http://www.templatemo.com/tm-475-holiday
 	<link href="css/flexslider.css" rel="stylesheet">
 	<link href="css/templatemo-style.css" rel="stylesheet">
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
 </head>
 <body>
 	<!-- Header -->
-	<div class="tm-header">
-  		<div class="container">
-  			<div class="row">
-  				<div class="col-lg-6 col-md-4 col-sm-3 tm-site-name-container">
-  					<a href="#" class="tm-site-name">LAZY DAYS</a>	
-  				</div>
-	  			<div class="col-lg-6 col-md-8 col-sm-9">
-	  				<div class="mobile-menu-icon">
-		              <i class="fa fa-bars"></i>
-		            </div>
-	  				<nav class="tm-nav">
-						<ul>
-							<li><a href="index.jsp" class="active">Home</a></li>
-							
-						</ul>
-					</nav>		
-	  			</div>				
-  			</div>
-  		</div>	  	
-  	</div>
+	<jsp:include page="header.jsp" />
 
 	<!-- Banner -->
 	<section class="tm-banner">
@@ -122,36 +92,7 @@ http://www.templatemo.com/tm-475-holiday
 			</div>			
 		</div>
 	</section>
-	<footer class="tm-black-bg">
-		<div class="container">
-			<nav class="tm-nav">
-						<ul>
-							<li><a href="#">FAQs</a></li>
-							<li><a href="about.jsp">About</a></li>
-							<li><a href="contact.jsp"  class="active">Contact Us</a></li>
-							<li><a href="tours.jsp">Our tours</a></li>
-						</ul>
-			</nav>
-		
-		<div class="social-follow">
-              <nav class="tm-nav">
-              <ul>
-                <li><a href="https://www.facebook.com/abhrak10"><i class="fa fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
-                <li><a href="https://twitter.com/Abhrak"><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
-                <li><a href="https://www.linkedin.com/in/abhrak-10/"><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</a></li>
-                <li><a href="https://plus.google.com/u/0/+AbhrakChatterjee"><i class="fa fa-google-plus-square" aria-hidden="true"></i> Google+</a></li>
-                <li><a href="https://www.instagram.com/abhrak10/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i> Instagram</a></li>
-              </ul>
-          </nav>
-            </div>
-			<div class="row">
-				<p class="tm-copyright-text">Copyright &copy; 2018 Lazy Days 
-                
-                | Designed by <a rel="nofollow" href="#" target="_parent">Lazy People</a></p>
-			</div>
-		</div>
-				
-	</footer>
+	<jsp:include page="footer.jsp" />
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      		<!-- jQuery -->
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>					<!-- bootstrap js -->
 	<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>			<!-- flexslider js -->
